@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name MTCH101)(type Legacy)(uri ${KIPRJMOD}/../Library/eTprox_library/MTCH101.lib)(options "")(descr ""))
+)

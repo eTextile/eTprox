@@ -1,0 +1,254 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr User 5906 5906
+encoding utf-8
+Sheet 1 1
+Title "MTCH101 eTextile Tactile Switch"
+Date "2021-04-26"
+Rev "V02"
+Comp ""
+Comment1 "for Knottex - Timelab"
+Comment2 "CERN-OHL"
+Comment3 "License: CERN Open Hardware License "
+Comment4 "Author: Wendy Van Wynsberghe"
+$EndDescr
+$Comp
+L Device:R_US R3
+U 1 1 5EECE401
+P 2450 2350
+F 0 "R3" H 2520 2396 50  0000 L CNN
+F 1 "4.7K" H 2520 2305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2380 2350 50  0001 C CNN
+F 3 "~" H 2450 2350 50  0001 C CNN
+	1    2450 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5EED0728
+P 2650 2800
+F 0 "#PWR03" H 2650 2550 50  0001 C CNN
+F 1 "GND" H 2655 2627 50  0000 C CNN
+F 2 "" H 2650 2800 50  0001 C CNN
+F 3 "" H 2650 2800 50  0001 C CNN
+	1    2650 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5EEECB88
+P 1150 3300
+F 0 "#PWR05" H 1150 3050 50  0001 C CNN
+F 1 "GND" H 1155 3127 50  0000 C CNN
+F 2 "" H 1150 3300 50  0001 C CNN
+F 3 "" H 1150 3300 50  0001 C CNN
+	1    1150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R4
+U 1 1 5EEF01B8
+P 2150 2950
+F 0 "R4" V 2350 2900 50  0000 L CNN
+F 1 "10K" V 2250 2850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2080 2950 50  0001 C CNN
+F 3 "~" H 2150 2950 50  0001 C CNN
+	1    2150 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_US R6
+U 1 1 5EEF14DA
+P 4200 2500
+F 0 "R6" H 4270 2546 50  0000 L CNN
+F 1 "1K" H 4270 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4130 2500 50  0001 C CNN
+F 3 "~" H 4200 2500 50  0001 C CNN
+	1    4200 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5EF0BCE1
+P 1750 3300
+F 0 "#PWR02" H 1750 3050 50  0001 C CNN
+F 1 "GND" H 1755 3127 50  0000 C CNN
+F 2 "" H 1750 3300 50  0001 C CNN
+F 3 "" H 1750 3300 50  0001 C CNN
+	1    1750 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R7
+U 1 1 5EF1344E
+P 4500 2500
+F 0 "R7" H 4570 2546 50  0000 L CNN
+F 1 "4.7K" H 4570 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4430 2500 50  0001 C CNN
+F 3 "~" H 4500 2500 50  0001 C CNN
+	1    4500 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 2650 1750 2800
+Wire Wire Line
+	1750 3100 1750 3300
+$Comp
+L Device:LED D1
+U 1 1 5EF52969
+P 4200 2100
+F 0 "D1" V 4147 2180 50  0000 L CNN
+F 1 "LED" V 4238 2180 50  0000 L CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4200 2100 50  0001 C CNN
+F 3 "~" H 4200 2100 50  0001 C CNN
+	1    4200 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 2350 4200 2250
+Text GLabel 4200 1800 1    50   Input ~ 0
+VCC
+Text GLabel 4500 1800 1    50   Input ~ 0
+VCC
+Wire Wire Line
+	4200 1950 4200 1800
+Wire Wire Line
+	4500 2350 4500 1800
+Text GLabel 1600 1550 2    50   Input ~ 0
+VCC
+Text GLabel 1150 2650 1    50   Input ~ 0
+VCC
+Text GLabel 1750 2650 1    50   Input ~ 0
+VCC
+Text GLabel 3950 1800 1    50   Input ~ 0
+VCC
+$Comp
+L Device:R_US R5
+U 1 1 5EEF1130
+P 3700 2650
+F 0 "R5" V 3900 2650 50  0000 L CNN
+F 1 "10K" V 3800 2600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3630 2650 50  0001 C CNN
+F 3 "~" H 3700 2650 50  0001 C CNN
+	1    3700 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5F2C9D00
+P 1600 1900
+F 0 "#PWR0101" H 1600 1650 50  0001 C CNN
+F 1 "GND" H 1605 1727 50  0000 C CNN
+F 2 "" H 1600 1900 50  0001 C CNN
+F 3 "" H 1600 1900 50  0001 C CNN
+	1    1600 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2500 2450 2650
+Wire Wire Line
+	2450 2650 2800 2650
+Wire Wire Line
+	2650 2800 2800 2800
+Wire Wire Line
+	3450 2650 3550 2650
+Wire Wire Line
+	3950 1800 3950 2650
+Wire Wire Line
+	3850 2650 3950 2650
+$Comp
+L Device:C C1
+U 1 1 5EEEBBF2
+P 1150 2950
+F 0 "C1" H 1000 3050 50  0000 L CNN
+F 1 "0.1µF" H 900 2850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1188 2800 50  0001 C CNN
+F 3 "~" H 1150 2950 50  0001 C CNN
+	1    1150 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 3100 1150 3300
+Wire Wire Line
+	4200 2650 4200 2950
+Connection ~ 4200 2950
+Wire Wire Line
+	4500 2650 4500 2950
+Wire Wire Line
+	4200 2950 4500 2950
+Connection ~ 4500 2950
+$Comp
+L MTCH101:MTCH101 U1
+U 1 1 6086958E
+P 3150 2800
+F 0 "U1" H 3000 3200 60  0000 C CNN
+F 1 "MTCH101" H 3100 3100 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 3125 3091 60  0001 C CNN
+F 3 "../docs/datasheet_MTCH101.pdf" H 3250 2550 60  0000 C CNN
+	1    3150 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 6086B6B2
+P 1200 1650
+F 0 "J1" H 1120 1325 50  0000 C CNN
+F 1 "Conn_01x03" H 1120 1416 50  0000 C CNN
+F 2 "eTprox:eTprox_Pad_1x03" H 1200 1650 50  0001 C CNN
+F 3 "~" H 1200 1650 50  0001 C CNN
+	1    1200 1650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1400 1750 1600 1750
+Wire Wire Line
+	1600 1750 1600 1900
+Wire Wire Line
+	1600 1550 1400 1550
+Wire Wire Line
+	1400 1650 1600 1650
+Text GLabel 4800 2950 2    50   Input ~ 0
+SIG
+Wire Wire Line
+	4500 2950 4800 2950
+Text GLabel 1600 1650 2    50   Input ~ 0
+SIG
+$Comp
+L Connector_Generic:Conn_01x01 Antenna
+U 1 1 6086F56F
+P 2450 1850
+F 0 "Antenna" H 2530 1892 50  0000 L CNN
+F 1 "Conn_01x01" H 2530 1801 50  0000 L CNN
+F 2 "eTprox:eTprox_Pad_1x01" H 2450 1850 50  0001 C CNN
+F 3 "~" H 2450 1850 50  0001 C CNN
+	1    2450 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2450 2050 2450 2200
+Wire Wire Line
+	2000 2950 1900 2950
+$Comp
+L Device:R_Potentiometer_US RV1
+U 1 1 60871407
+P 1750 2950
+F 0 "RV1" H 1682 2996 50  0000 R CNN
+F 1 "10K" H 1682 2905 50  0000 R CNN
+F 2 "Potentiometer_SMD:Potentiometer_Vishay_TS53YJ_Vertical" H 1750 2950 50  0001 C CNN
+F 3 "~" H 1750 2950 50  0001 C CNN
+	1    1750 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 2650 1150 2800
+Wire Wire Line
+	3450 2800 3950 2800
+Wire Wire Line
+	3950 2800 3950 2650
+Connection ~ 3950 2650
+Wire Wire Line
+	3450 2950 4200 2950
+Wire Wire Line
+	2300 2950 2800 2950
+$EndSCHEMATC
