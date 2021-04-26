@@ -1,5 +1,5 @@
 # eTprox
-## eTextile Tictile switch
+## eTextile Tactile Switch
 
 ### Credits
 - **Wendy Van Wynsberghe** <wendy[AT]constantvzw.org>
