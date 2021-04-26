@@ -2,7 +2,7 @@
 ## eTextile Tictile switch
 
 ### Credits
-- **Wendy Van Wynsberghe** <pauline.vierne[AT]gmail.com>
+- **Wendy Van Wynsberghe** <wendy[AT]constantvzw.org>
 - **License** : Cern Open Hardware (see the License file)
 - **wenPage** : http://etextile-summercamp.org/swatch-exchange/sewable-proximity-switch-board-1/
 - **Repository**: https://github.com/eTextile/eTprox/tree/master
@@ -16,6 +16,6 @@ What happens when you have been working with tactile textile and touch in this e
 - Microcontroller (not included)
 
 ## Credits
-Kicad design forked from VAEngineering for Knottex, Timelab.
+Design forked from Knottex project @ Timelab.
 
 # TODO
