@@ -1,0 +1,15 @@
+### Module positions - created on mar. 27 avril 2021 11:45:36 CEST ###
+### Printed by Pcbnew version kicad 5.0.2+dfsg1-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                                             PosX       PosY       Rot  Side
+C1        0.1µF    C_0805_2012Metric_Pad1.18x1.45mm_HandSolder      74.0000   -73.5880    0.0000  top
+D1        LED       LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder    67.4050   -68.0000  180.0000  top
+R3        4.7K      R_0805_2012Metric_Pad1.20x1.40mm_HandSolder      67.3960   -70.7940    0.0000  top
+R4        10K       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder      78.8260   -61.1420    0.0000  top
+R5        10K       R_0805_2012Metric_Pad1.20x1.40mm_HandSolder      67.3960   -73.5880    0.0000  top
+R6        1K        R_0805_2012Metric_Pad1.20x1.40mm_HandSolder      67.3800   -65.2060    0.0000  top
+R7        4.7K      R_0805_2012Metric_Pad1.20x1.40mm_HandSolder      67.3960   -62.4120    0.0000  top
+RV1       10K       Potentiometer_Vishay_TS53YJ_Vertical             74.0000   -62.1580  270.0000  top
+U1        MTCH101   SOT-23-6_Handsoldering                           74.0000   -68.0000  180.0000  top
+## End

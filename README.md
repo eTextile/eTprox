@@ -15,6 +15,17 @@
 - eTextile antenna (conductive thread or conductive textile)
 - Microcontroller (not included)
 
+| Référence                | Def (Kicad components names)                  | Quantity | Value   |
+|:-------------------------|:----------------------------------------------|----------|:--------|
+|  J2	                   | JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal	   |    1     |         |
+|  RV1	                   | Potentiometer_Vishay_TS53YJ_Vertical	       |    1	  | 10K     |
+|  U1	                   | SOT-23-6_Handsoldering	                       |    1	  | MTCH101 | 
+|  D1	                   | LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder |    1	  | LED     |
+|  C1	                   | C_0805_2012Metric_Pad1.18x1.45mm_HandSolder   |    1	  | 0.1µF   |
+|  R7,R3	               | R_0805_2012Metric_Pad1.20x1.40mm_HandSolder   |    2	  | 4.7K    |
+|  R6	                   | R_0805_2012Metric_Pad1.20x1.40mm_HandSolder   |    1	  | 1K      |
+|  R5,R4	               | R_0805_2012Metric_Pad1.20x1.40mm_HandSolder   |    2	  | 10K     |
+
 ## Credits
 Design forked from Knottex project @ Timelab.
 
