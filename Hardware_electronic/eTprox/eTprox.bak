@@ -4,11 +4,11 @@ EELAYER END
 $Descr User 5906 5906
 encoding utf-8
 Sheet 1 1
-Title "eTextile Proximity Switch"
-Date "2021-04-27"
+Title "MTCH101 eTextile Tactile Switch"
+Date "2021-04-26"
 Rev "V02"
 Comp ""
-Comment1 "Timelab for Knottex project"
+Comment1 "for Knottex - Timelab"
 Comment2 "CERN-OHL"
 Comment3 "License: CERN Open Hardware License "
 Comment4 "Author: Wendy Van Wynsberghe"
