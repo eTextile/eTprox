@@ -188,6 +188,11 @@
       (net 7 SIG))
     (pad 3 thru_hole oval (at 5 0 90) (size 1.7 1.95) (drill 0.95) (layers *.Cu *.Mask)
       (net 6 VCC))
+    (model ${KISYS3DMOD}/Connector_JST.3dshapes/JST_XH_S3B-XH-A_1x03_P2.50mm_Horizontal.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module eTprox:eTprox_Pad_1x01 (layer F.Cu) (tedit 6087CA77) (tstamp 60884D34)
@@ -277,11 +282,6 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
-    )
-    (model ${KISYS3DMOD}/Potentiometer_SMD.3dshapes/Potentiometer_Bourns_3314G_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 90))
     )
   )
 
