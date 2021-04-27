@@ -1,5 +1,5 @@
 # eTprox
-## eTextile Tactile Switch
+## eTextile Proximity Switch
 
 ### Credits
 - **Wendy Van Wynsberghe** <wendy[AT]constantvzw.org>
@@ -19,4 +19,4 @@
 Design forked from Knottex project @ Timelab.
 
 # TODO
-http://www.farnell.com/datasheets/1714150.pdf
+- See : http://www.farnell.com/datasheets/1714150.pdf
